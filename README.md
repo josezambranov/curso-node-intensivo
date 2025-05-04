@@ -14,7 +14,9 @@ bun run index.ts
 
 This project was created using `bun init` in bun v1.2.10. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
 ############################# notas ###################################
-curso dictado por : https://www.youtube.com/watch?v=z4x1OGfJkek&t=2087s min 26:18
+curso dictado por : https://www.youtube.com/watch?v=z4x1OGfJkek&t=2087s min 37:41
+
+crud con auntentificacion , manejo de token, manejo de roles
 
 tecnologias
 
@@ -64,6 +66,15 @@ paso 4
             eslint-config-airbnb-base-typescript
 
  
+paso 5 base 
+    modelos
+        los modelos tendran logica porque pertenece al donimio del usuario
+        schema : poder dibujar que caracteristica tiene mi objeto
+        se usarar pipe de valibot
+        se unificaran esquemas
+        crear un tipo de tipescript
+        los schemas nos sirven para validaciones
+        usaresmos jsdoc 
 consultar:
 -inferercina de tipos : 
     escribir todo el esquema y tranformarclo a un tipo de javascrpit
