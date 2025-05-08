@@ -1,9 +1,18 @@
 const revokedTokens: Set<string> = new Set();
 
-export const addRevokeToken = (token:string):void => {
+/**
+ * Adds a token to the revoked tokens list.
+ * @param {string} token - The token to revoke.
+ * @returns {void}
+ */
+export const addRevokeToken = (token: string): void => {
     revokedTokens.add(token);
 }
-
-export const isTokenRevoked = (token:string):boolean => {
+/**
+ * Checks if a token is revoked.
+ * @param {string} token - The token to check.
+ * @returns {boolean} True if the token is revoked, false otherwise.
+ */
+export const isTokenRevoked = (token: string): boolean => {
     return revokedTokens.has(token);
 }

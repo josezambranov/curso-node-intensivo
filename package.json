@@ -2,11 +2,17 @@
   "name": "curso-node-intensivo",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "dev": "bun run index.ts",
+    "lint": "eslint ."
+  },
   "private": true,
   "devDependencies": {
     "@eslint/js": "^9.25.1",
     "@types/bcrypt": "^5.0.2",
     "@types/bun": "latest",
+    "@types/cors": "^2.8.17",
+    "@types/jsonwebtoken": "^9.0.9",
     "@types/node": "^22.15.2",
     "@typescript-eslint/eslint-plugin": "^8.31.0",
     "@typescript-eslint/parser": "^8.31.0",
